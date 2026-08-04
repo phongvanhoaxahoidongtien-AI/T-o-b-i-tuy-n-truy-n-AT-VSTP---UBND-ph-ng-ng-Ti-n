@@ -1,0 +1,6 @@
+{
+  "name": "Trình Tạo Bài Đăng & Poster ATVSTP - UBND Phường",
+  "description": "Công cụ tạo nội dung bài viết, bản tin phát thanh và ảnh minh họa tuyên truyền An toàn vệ sinh thực phẩm thân thiện, dễ hiểu cho UBND phường.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
