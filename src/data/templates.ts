@@ -71,19 +71,19 @@ export const SAMPLE_SAVED_POSTS: SavedItem[] = [
   {
     id: 'sample-1',
     title: '📌 3 MẸO NHỎ ĐI CHỢ PHƯỜNG - CHỌN THỰC PHẨM TƯƠI NGON MỖI NGÀY',
-    socialContent: `🏢 UBND PHƯỜNG XIN CHÀO BÀ CON! 🌾
+    socialContent: `🏢 UBND PHƯỜNG ĐÔNG TIẾN XIN CHÀO BÀ CON! 🌾
 
-Đã bao giờ bà con băn khoăn làm sao chọn được miếng thịt tươi, bó rau sạch cho bữa cơm gia đình? Trạm Y tế Phường xin gửi tới bà con 3 mẹo đơn giản, dễ nhớ:
+Đã bao giờ bà con băn khoăn làm sao chọn được miếng thịt tươi, bó rau sạch cho bữa cơm gia đình? Ban Chỉ đạo ATVSTP & Trạm Y tế Phường xin gửi tới bà con 3 mẹo đơn giản, dễ nhớ:
 
 1️⃣ CHỌN THỊT TƯƠI: Miếng thịt có màu hồng tự nhiên, ấn ngón tay vào có độ đàn hồi tốt, không dính tay và không có mùi lạ.
 2️⃣ CHỌN RAU SẠCH: Ưu tiên rau củ quả tươi nguyên, không dập nát, không có màu sắc bất thường hay mùi hóa chất lạ.
 3️⃣ CHỌN CÁ TƯƠI: Mắt cá trong suốt, mang màu đỏ tươi, vảy bám chặt vào thân.
 
-👉 LỜI KHUYÊN TỪ UBND PHƯỜNG:
+👉 LỜI KHUYÊN TỪ UBND PHƯỜNG ĐÔNG TIẾN:
 Bà con nên mua sắm tại các chợ truyền thống, cửa hàng thực phẩm uy tín đã đăng ký kiểm định chất lượng trên địa bàn phường.
 
-📞 Hotline Trạm Y tế Phường: 024.3852.XXXX (Hỗ trợ 24/7)`,
-    broadcastScript: `Kính chào toàn thể bà con nhân dân trên địa bàn phường!
+📞 Hotline hỗ trợ bà con: 0914595858 - 0904332898 (Hỗ trợ 24/7)`,
+    broadcastScript: `Kính chào toàn thể bà con nhân dân trên địa bàn phường Đông Tiến!
 
 Để đảm bảo sức khỏe cho từng bữa ăn gia đình, UBND và Trạm Y tế phường xin lưu ý bà con một số mẹo đi chợ an toàn:
 
@@ -103,18 +103,18 @@ Nấu chín, ăn nóng, đời đời an vui!`,
       'Rửa rau dưới dòng nước chảy',
       'Mua hàng tại các điểm kinh doanh có kiểm định'
     ],
-    hotline: '024.3852.XXXX',
-    hashtags: ['#UBNDPhuong', '#AnToanThucPham', '#SucKhoeGiaDinh', '#ThucPhamTuoiNgon'],
+    hotline: '0914595858 - 0904332898',
+    hashtags: ['#UBNDPhuongDongTien', '#AnToanThucPham', '#SucKhoeGiaDinh', '#ThanhHoa'],
     createdAt: '2026-08-01',
     topic: 'Mẹo chọn mua thịt, cá, rau củ tươi ngon',
-    wardName: 'UBND Phường'
+    wardName: 'UBND phường Đông Tiến, tỉnh Thanh Hóa'
   },
   {
     id: 'sample-2',
     title: '☀️ PHÒNG NGỪA NGỘ ĐỘC THỰC PHẨM MÙA NẮNG NÓNG',
     socialContent: `☀️ MÙA HÈ NẮNG NÓNG - ĂN CHÍNH UỐNG SÔI, BẢO VỆ CẢ NHÀ! 🍲
 
-Thời tiết nắng nóng là điều kiện thuận lợi cho vi khuẩn phát triển làm thức ăn nhanh ôi thiu. UBND Phường nhắc nhở bà con 4 nguyên tắc vàng:
+Thời tiết nắng nóng là điều kiện thuận lợi cho vi khuẩn phát triển làm thức ăn nhanh ôi thiu. UBND Phường Đông Tiến nhắc nhở bà con 4 nguyên tắc vàng:
 
 ✅ 1. Ăn chín, uống sôi, nấu xong ăn ngay.
 ✅ 2. Thực phẩm đã nấu chín nếu để quá 2 giờ cần bảo quản trong tủ lạnh (dưới 5°C) và đun kỹ lại trước khi ăn.
@@ -123,8 +123,9 @@ Thời tiết nắng nóng là điều kiện thuận lợi cho vi khuẩn phát
 
 🚫 KHÔNG ăn thức ăn có dấu hiệu thiu, nổi bọt hoặc đổi màu!
 
-🏢 UBND Phường chung tay cùng nhân dân xây dựng cộng đồng an toàn, khỏe mạnh!`,
-    broadcastScript: `Alo alo! UBND phường xin thông báo bản tin tuyên truyền an toàn vệ sinh thực phẩm mùa nắng nóng!
+🏢 UBND phường Đông Tiến chung tay cùng nhân dân xây dựng cộng đồng an toàn, khỏe mạnh!
+📞 Hotline liên hệ: 0914595858 - 0904332898`,
+    broadcastScript: `Alo alo! UBND phường Đông Tiến xin thông báo bản tin tuyên truyền an toàn vệ sinh thực phẩm mùa nắng nóng!
 
 Kính thưa bà con! Vào mùa hè, thời tiết oi nóng khiến thức ăn rất dễ bị vi khuẩn xâm nhập và ôi thiu. Để tránh ngộ độc thực phẩm, Trạm Y tế phường khuyến cáo bà con:
 
@@ -132,7 +133,7 @@ Thứ nhất: Thực hiện tuyệt đối "Ăn chín, uống sôi".
 Thứ hai: Không để thức ăn đã nấu ở nhiệt độ phòng quá 2 tiếng.
 Thứ ba: Luôn rửa tay bằng xà phòng trước khi ăn và sau khi đi vệ sinh.
 
-Nếu có biểu hiện đau bụng, buồn nôn, xin bà con liên hệ ngay Hotline Trạm y tế phường để được hỗ trợ kịp thời. Xin trân trọng cảm ơn!`,
+Nếu có biểu hiện đau bụng, buồn nôn, xin bà con liên hệ ngay Hotline: 0914595858 - 0904332898 để được hỗ trợ kịp thời. Xin trân trọng cảm ơn!`,
     shortSlogan: 'Ăn chín, uống sôi - Đẩy lùi ngộ độc!',
     rhyme: `Mùa hè nắng tạ oi ngột,
 Đồ ăn dễ hỏng, dễ ngộ độc ngay.
@@ -144,11 +145,11 @@ Nấu chín, đun sôi, mỗi ngày yên tâm!`,
       'Đun kỹ lại thức ăn bảo quản tủ lạnh',
       'Rửa tay xà phòng trước khi ăn'
     ],
-    hotline: '024.3852.XXXX',
-    hashtags: ['#UBNDPhuong', '#PhongNgoDocThucPham', '#AnChinUongSoi', '#SucKhoeMuaHe'],
+    hotline: '0914595858 - 0904332898',
+    hashtags: ['#UBNDPhuongDongTien', '#PhongNgoDocThucPham', '#AnChinUongSoi', '#ThanhHoa'],
     createdAt: '2026-08-02',
     topic: 'Phòng ngộ độc thực phẩm mùa nắng nóng',
-    wardName: 'UBND Phường'
+    wardName: 'UBND phường Đông Tiến, tỉnh Thanh Hóa'
   }
 ];
 

@@ -224,7 +224,7 @@ export const Header: React.FC<HeaderProps> = ({
                   type="text"
                   value={tempInfo.wardName}
                   onChange={(e) => setTempInfo({ ...tempInfo, wardName: e.target.value })}
-                  placeholder="VD: UBND Phường Đông Tiến"
+                  placeholder="VD: UBND phường Đông Tiến, tỉnh Thanh Hóa"
                   className="w-full p-3 border border-gray-300 rounded-xl text-sm font-bold focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none"
                   required
                 />
@@ -256,7 +256,7 @@ export const Header: React.FC<HeaderProps> = ({
                   type="text"
                   value={tempInfo.address}
                   onChange={(e) => setTempInfo({ ...tempInfo, address: e.target.value })}
-                  placeholder="VD: Số 123 Đường Lý Thái Tổ, Phường Đông Tiến..."
+                  placeholder="VD: DP Đại Bái 2, Phường Đông Tiến, tỉnh Thanh Hóa"
                   className="w-full p-3 border border-gray-300 rounded-xl text-sm focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none"
                 />
               </div>
@@ -271,7 +271,7 @@ export const Header: React.FC<HeaderProps> = ({
                   type="text"
                   value={tempInfo.hotline}
                   onChange={(e) => setTempInfo({ ...tempInfo, hotline: e.target.value })}
-                  placeholder="VD: 0988.123.456 - 024.3825.1115"
+                  placeholder="VD: 0914595858 - 0904332898"
                   className="w-full p-3 border border-gray-300 rounded-xl text-sm font-bold text-red-700 focus:ring-2 focus:ring-red-500 focus:border-red-500 outline-none"
                   required
                 />

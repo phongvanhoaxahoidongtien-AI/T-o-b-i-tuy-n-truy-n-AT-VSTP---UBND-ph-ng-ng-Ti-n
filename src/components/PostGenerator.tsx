@@ -64,11 +64,11 @@ export const PostGenerator: React.FC<PostGeneratorProps> = ({
   const [showAgencyModal, setShowAgencyModal] = useState<boolean>(false);
   const [tempAgency, setTempAgency] = useState<AgencyInfo>(
     agencyInfo || {
-      wardName: wardName || 'UBND Phường Đông Tiến',
-      departmentName: 'Ban Chỉ đạo ATVSTP & Trạm Y tế Phường',
+      wardName: wardName || 'UBND phường Đông Tiến, tỉnh Thanh Hóa',
+      departmentName: 'Ban Chỉ đạo ATVSTP & Trạm Y tế',
       campaignName: 'Tháng hành động vì An toàn thực phẩm 2026',
-      address: 'Số 123 Đường Lý Thái Tổ, Phường Đông Tiến',
-      hotline: '0988.123.456 - 024.3825.1115'
+      address: 'DP Đại Bái 2, Phường Đông Tiến, tỉnh Thanh Hóa',
+      hotline: '0914595858 - 0904332898'
     }
   );
 

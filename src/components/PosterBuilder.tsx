@@ -35,7 +35,7 @@ export const PosterBuilder: React.FC<PosterBuilderProps> = ({
     wardName: agencyInfo?.departmentName 
       ? `${agencyInfo.departmentName} - ${agencyInfo.wardName}` 
       : (initialConfig?.wardName || wardName),
-    hotline: agencyInfo?.hotline || initialConfig?.hotline || '0988.123.456 - 024.3825.1115',
+    hotline: agencyInfo?.hotline || initialConfig?.hotline || '0914595858 - 0904332898',
     badgeText: initialConfig?.badgeText || agencyInfo?.campaignName || 'TRUYỀN THÔNG CÔNG CỘNG',
     imageUrl: initialConfig?.imageUrl
   });

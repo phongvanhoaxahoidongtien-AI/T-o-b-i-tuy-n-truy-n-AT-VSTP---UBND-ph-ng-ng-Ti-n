@@ -7,11 +7,11 @@ export type TargetAudience = 'all_citizens' | 'food_vendors' | 'school_kitchens'
 export type ContentLength = 'short' | 'medium' | 'detailed';
 
 export interface AgencyInfo {
-  wardName: string;         // Tên Phường/Xã/Thị trấn (VD: UBND Phường Đông Tiến)
+  wardName: string;         // Tên Phường/Xã/Thị trấn (VD: UBND phường Đông Tiến, tỉnh Thanh Hóa)
   departmentName: string;   // Phòng/Ban/Tổ dân phố (VD: Ban Chỉ đạo ATVSTP & Trạm Y tế)
   campaignName: string;     // Tên chiến dịch (VD: Tháng hành động vì An toàn thực phẩm 2026)
-  address: string;          // Địa chỉ trụ sở (VD: Số 123 Đường Lý Thái Tổ, Phường Đông Tiến)
-  hotline: string;          // Số hotline liên hệ (VD: 0988.123.456 - 024.3825.1115)
+  address: string;          // Địa chỉ trụ sở (VD: DP Đại Bái 2, Phường Đông Tiến, tỉnh Thanh Hóa)
+  hotline: string;          // Số hotline liên hệ (VD: 0914595858 - 0904332898)
 }
 
 export interface NewsReference {

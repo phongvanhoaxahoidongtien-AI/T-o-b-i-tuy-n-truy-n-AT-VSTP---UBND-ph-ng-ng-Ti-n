@@ -10,11 +10,11 @@ import { PostRequest, GeneratedPost, SavedItem, PosterConfig, StylePreference, A
 import { HeartHandshake, ShieldCheck, Sparkles, BookOpen, Volume2, Image, CheckCircle2 } from 'lucide-react';
 
 const DEFAULT_AGENCY_INFO: AgencyInfo = {
-  wardName: 'UBND Phường Đông Tiến',
-  departmentName: 'Ban Chỉ đạo ATVSTP & Trạm Y tế Phường',
+  wardName: 'UBND phường Đông Tiến, tỉnh Thanh Hóa',
+  departmentName: 'Ban Chỉ đạo ATVSTP & Trạm Y tế',
   campaignName: 'Tháng hành động vì An toàn thực phẩm 2026',
-  address: 'Số 123 Đường Lý Thái Tổ, Phường Đông Tiến',
-  hotline: '0988.123.456 - 024.3825.1115'
+  address: 'DP Đại Bái 2, Phường Đông Tiến, tỉnh Thanh Hóa',
+  hotline: '0914595858 - 0904332898'
 };
 
 const DEFAULT_LEARNED_RULES = [
@@ -28,7 +28,24 @@ export default function App() {
     const localInfo = localStorage.getItem('ubnd_atvstp_agency_info');
     if (localInfo) {
       try {
-        return JSON.parse(localInfo);
+        const parsed = JSON.parse(localInfo);
+        if (
+          !parsed.address ||
+          parsed.address.includes('Lý Thái Tổ') ||
+          !parsed.address.includes('Thanh Hóa') ||
+          parsed.hotline?.includes('0988.123.456') ||
+          parsed.hotline?.includes('024.3825.1115') ||
+          !parsed.wardName?.includes('Thanh Hóa')
+        ) {
+          return {
+            ...DEFAULT_AGENCY_INFO,
+            ...parsed,
+            wardName: 'UBND phường Đông Tiến, tỉnh Thanh Hóa',
+            address: 'DP Đại Bái 2, Phường Đông Tiến, tỉnh Thanh Hóa',
+            hotline: '0914595858 - 0904332898'
+          };
+        }
+        return parsed;
       } catch (e) {
         console.error('Failed to parse agency info', e);
       }
@@ -276,7 +293,7 @@ export default function App() {
             <ShieldCheck className="w-4 h-4 text-red-600" />
             <span>{agencyInfo.wardName} ({agencyInfo.departmentName}) • Cổng Truyền Thông An Toàn Thực Phẩm Cộng Đồng</span>
           </div>
-          <p>© 2026 Được phát triển dành cho Cán bộ Văn hóa & Ban Chỉ đạo ATVSTP cấp Phường/Xã.</p>
+          <p>© 2026 Được phát triển dành cho Ban Chỉ đạo ATVSTP và các tổ dân phố  Phường Đông Tiến by Ltd...</p>
         </div>
       </footer>
     </div>

@@ -43,7 +43,7 @@ app.post("/api/generate-content", async (req, res) => {
       includeHashtags,
       includeHotline,
       customNotes,
-      wardName = "UBND Phường",
+      wardName = "UBND phường Đông Tiến, tỉnh Thanh Hóa",
       newsReference,
       learnedStyleRules,
       sampleEdits,
